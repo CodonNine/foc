@@ -1,0 +1,38 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 41b2733e-d229-49fa-9b30-0dc49e28d119)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "\n\n1.输入电压9-36V\n2.额定电流5A\n3.最大功率180W\n4.尺寸75mm*65mm"
+    (at 19.05 40.64 0) (size 91.44 41.91)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 3.81 3.81)) (justify left top))
+    (uuid 8935d653-ea47-44bc-9993-92935f9990ec)
+  )
+  (text_box "\n\n1.过流保护\n2.过压保护\n3.欠压保护\n4.信号输入和输出线上的ESD防护"
+    (at 19.05 90.17 0) (size 91.44 40.64)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 3.81 3.81)) (justify left top))
+    (uuid bcaf7788-a458-419a-bd1a-5cf914d5d1ef)
+  )
+
+  (text "FOC控制器设计纲要" (at 73.66 31.75 0)
+    (effects (font (size 12.7 12.7)) (justify left bottom))
+    (uuid 34cb8a04-47fa-4b37-af5d-73e3f696a9ed)
+  )
+  (text "额定参数" (at 21.59 50.8 0)
+    (effects (font (size 6.35 6.35)) (justify left bottom))
+    (uuid 455f5fd2-8204-4e2d-b2cb-4967392d261c)
+  )
+  (text "保护措施" (at 21.59 101.6 0)
+    (effects (font (size 6.35 6.35)) (justify left bottom))
+    (uuid fa8ed04f-c934-48ed-82e4-fa3bee50ddac)
+  )
+)
